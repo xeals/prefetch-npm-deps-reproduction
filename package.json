@@ -1,0 +1,11 @@
+{
+    "name": "package-name",
+    "description": "description",
+    "version": "1.0.0",
+    "author": "Example <user@example.com>",
+    "license": "MIT",
+	"devDependencies": {
+		"svelte-select": "github:xeals/svelte-select#93e6000"
+	},
+	"type": "module"
+}

@@ -1,0 +1,11 @@
+name: build
+on:
+  push:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: https://gitea.com/actions/checkout@v3
+      - uses: https://github.com/cachix/install-nix-action@v25
+      - run: nix build
